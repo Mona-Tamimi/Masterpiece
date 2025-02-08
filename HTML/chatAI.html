@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot Landing Page</title>
+    <link rel="stylesheet" href="/CSS/chatAI.css">
+    <script defer src="/JS/chatAI.js"></script>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>FIND YOUR PATH. SHAPE YOUR FUTURE!</h2>
+                <h1><span>AI-POWERED</span> CAREER GUIDANCE</h1>
+                <p>Take the first step toward your dream career with our personalized AI-driven guidance.  
+                Discover the best career options based on your skills and interests.</p>
+                <button class="btn get-started">Get Started</button>
+            </div>
+            <div class="hero-image">
+                <img src="/img/image-removebg-preview2.png" alt="AI Career Assistant">
+            </div>
+        </section>
+
+        <section class="effect-conversation">
+            <h3>How It Works →</h3>
+            <p id="conversation-text">Our AI chatbot analyzes your strengths, passions, and market trends to provide customized career suggestions.</p>
+            <div class="controls">
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        </section>
+
+         <!-- Chat Window (Initially Hidden) -->
+         <section id="chat-container" class="chat-container">
+            <div class="chat-header">
+                <h3>AI Career Chat</h3>
+                <button id="close-chat">✖</button>
+            </div>
+            <div id="chat-box" class="chat-box"></div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Ask about your career...">
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
